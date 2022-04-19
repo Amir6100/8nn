@@ -43,7 +43,7 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'<b>╭───《⟹ʜᴇɴᴛᴀɪ⟸》</b> {last_commit}\n'\
+    stats = f'<b>╭───《⟹ᶠⁱᵒˢⁱᵒⁿ ᴸᵉᵉᶜʰ ᵇᵒᵗ》</b> {last_commit}\n'\
             f'<b>├─ʙᴏᴛ ᴜᴘᴛɪᴍᴇ:</b> {currentTime}\n'\
             f'<b>├─ᴏꜱ ᴜᴘᴛɪᴍᴇ:</b> {osUptime}\n'\
             f'<b>├─📀ᴛᴏᴛᴀʟ ᴅɪꜱᴋ ꜱᴘᴀᴄᴇ:</b> {total}\n'\
